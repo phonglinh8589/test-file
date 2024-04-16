@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>        <dict>
+      <key>UserDefinedName</key>
+      <string>Autoconnect VPN</string>
+      <key>PayloadDisplayName</key>
+      <string>Autoconnect VPN</string>
+      <key>PayloadIdentifier</key>
+      <string>com.vpn.vpn1</string>
+      <key>PayloadUUID</key>
+      <string>09267120-3ED0-64BD-48EB-CA5960911C04</string>
+      <key>VPNType</key>
+      <string>L2TP</string>
+      <key>IPSec</key>
+      <dict>
+        <key>AuthenticationMethod</key>
+        <string>SharedSecret</string>
+        <key>LocalIdentifierType</key>
+        <string>KeyID</string>
+        <key>SharedSecret</key>
+        <string></string>
+      </dict>
+      <key>PPP</key>
+      <dict>
+        <key>AuthName</key>
+        <string></string>
+        <key>AuthPassword</key>
+        <string></string>
+        <key>CommRemoteAddress</key>
+        <string>https://unicefss.intenation.org/</string>
+      </dict>
+      <key>OnDemandEnabled</key>
+   <integer>1</integer>
+   <key>OnDemandRules</key>
+          <array>
+        <dict>
+          <key>InterfaceTypeMatch</key>
+          <string>WiFi</string>
+          <key>Action</key>
+          <string>Connect</string>
+        </dict>
+        <dict>
+          <!-- VPN Default state -->
+          <key>Action</key>
+          <string>Disconnect</string>
+        </dict>
+          </array>
+      <key>OverridePrimary</key>
+      <true/>
+      <key>IPv4</key>
+      <dict>
+        <key>OverridePrimary</key>
+        <integer>1</integer>
+      </dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+    </dict>
+</array>
+  <key>PayloadDisplayName</key>
+  <string>VPN Configurations</string>
+  <key>PayloadIdentifier</key>
+  <string>473E4A2E-D670-024A-4334-9BFA98E84AEA</string>
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>1DB3592A-9E67-7CDA-3DB0-5F8A0839B666</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
