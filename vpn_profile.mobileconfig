@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+  <key>PayloadDisplayName</key>
+  <string>unicefss.intenation.org ikev2</string>
+  <key>PayloadIdentifier</key>
+  <string>vpn.ikev2.unicefss.intenation.org</string>
+  <key>PayloadUUID</key>
+  <string>cc031191ad59b49b5839</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+
+  <key>PayloadRemovalDisallowed</key>
+  <false/>
+
+  <key>PayloadContent</key>
+  <array>
+
+    <dict>
+
+      <key>UserDefinedName</key>
+      <string>unicefss.intenation.org ikev2</string>
+
+      <key>PayloadDisplayName</key>
+      <string>unicefss.intenation.org ikev2</string>
+      <key>PayloadIdentifier</key>
+      <string>unicefss.intenation.org.ikev2</string>
+      <key>PayloadUUID</key>
+      <string>191c6e2f80f59a6db8dc</string>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+
+      <key>VPNType</key>
+      <string>IKEv2</string>
+
+      <key>IKEv2</key>
+      <dict>
+        <key>RemoteAddress</key>
+        <string>149.28.151.136</string>
+        <key>AuthenticationMethod</key>
+        <string>None</string>
+        <key>ExtendedAuthEnabled</key>
+        <integer>1</integer>
+        <key>LocalIdentifier</key>
+        <string></string>
+        <key>RemoteIdentifier</key>
+        <string>unicefss.intenation.org</string>
+        <key>ServerCertificateCommonName</key>
+        <string>unicefss.intenation.org</string>
+        <key>IKESecurityAssociationParameters</key>
+          <dict>
+            <key>EncryptionAlgorithm</key>
+            <string>AES-256</string>
+            <key>IntegrityAlgorithm</key>
+            <string>SHA2-256</string>
+          </dict>
+        <key>ChildSecurityAssociationParameters</key>
+          <dict>
+            <key>EncryptionAlgorithm</key>
+            <string>AES-128</string>
+            <key>IntegrityAlgorithm</key>
+            <string>SHA1-96</string>
+          </dict>
+      </dict>
+
+
+    </dict>
+
+
+
+
+
+  </array>
+
+</dict>
+</plist>
+
